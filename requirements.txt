@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+langchain-experimental
+langchain-cli
+langsmith
+langchain-openai
+python-dotenv
+beautifulsoup4
+faiss-cpu
