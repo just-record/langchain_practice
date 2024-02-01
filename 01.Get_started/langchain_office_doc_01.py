@@ -1,3 +1,7 @@
+# ChatOpenAI
+
+# OpenAI API Key: .env (OPENAI_API_KEY=sk-...)
+
 from dotenv import load_dotenv
 load_dotenv()
 
