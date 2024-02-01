@@ -5,6 +5,9 @@ langchain-experimental
 langchain-cli
 langsmith
 langchain-openai
+langchainhub
 python-dotenv
 beautifulsoup4
 faiss-cpu
+fastapi[all]
+uvicorn[standard]
