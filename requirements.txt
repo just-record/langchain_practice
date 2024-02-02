@@ -11,3 +11,5 @@ beautifulsoup4
 faiss-cpu
 fastapi[all]
 uvicorn[standard]
+docarray
+tiktoken
