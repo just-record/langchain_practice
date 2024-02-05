@@ -6,24 +6,32 @@
 
 # import openai
 
-
 # prompt_template = "Tell me a short joke about {topic}"
-# client = openai.OpenAI()
+# # client = openai.OpenAI()
+# async_client = openai.AsyncOpenAI()
 
-# def call_chat_model(messages: List[dict]) -> str:
-#     response = client.chat.completions.create(
+# async def acall_chat_model(messages: List[dict]) -> str:
+#     response = await async_client.chat.completions.create(
 #         model="gpt-3.5-turbo", 
 #         messages=messages,
 #     )
 #     return response.choices[0].message.content
 
-# def invoke_chain(topic: str) -> str:
+# async def ainvoke_chain(topic: str) -> str:
 #     prompt_value = prompt_template.format(topic=topic)
 #     messages = [{"role": "user", "content": prompt_value}]
-#     return call_chat_model(messages)
+#     return await acall_chat_model(messages)
 
-# print(invoke_chain("ice cream"))
+# # await ainvoke_chain("ice cream")
+# import asyncio
 
+# async def main():
+#     result = await ainvoke_chain("ice cream")
+#     print(result)
+
+# if __name__ == "__main__":
+#     asyncio.run(main())
+   
 ################################################################################
 # with LCEL
 ################################################################################
@@ -32,8 +40,6 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_core.runnables import RunnablePassthrough
-
-print(RunnablePassthrough())
 
 prompt = ChatPromptTemplate.from_template("tell me a short joke about {topic}")
 model = ChatOpenAI(model="gpt-3.5-turbo")
@@ -44,6 +50,13 @@ chain = (
     | StrOutputParser()
 )
 
-print(chain.invoke("ice cream"))
-# "Why did the ice cream go to therapy?\n\nBecause it had a rocky road!"
+# print(chain.ainvoke("ice cream"))
 
+import asyncio
+
+async def main():
+    result = await chain.ainvoke("ice cream")
+    print(result)
+
+if __name__ == "__main__":
+    asyncio.run(main())
