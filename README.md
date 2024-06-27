@@ -51,7 +51,7 @@ TODO: 다른 파트 연습 후에 볼 것
 
 ## LCEL(LangChain Expression Language)
 
-03.LCEL
+03.LCEL 
 
 ## Components
 
