@@ -13,9 +13,10 @@ chain = prompt | model | StrOutputParser()
 analysis_prompt = ChatPromptTemplate.from_template("is this a funny joke? {joke}")
 
 ### 추가 또는 수정 부분 ###
-composed_chain_with_lambda = chain | (lambda input: {"joke": input}) | analysis_prompt | model | StrOutputParser()
+from langchain_core.runnables import RunnableParallel
 
+composed_chain_with_pipe  = (RunnableParallel({"joke": chain}).pipe(analysis_prompt).pipe(model).pipe(StrOutputParser()))
 
-results = composed_chain_with_lambda.invoke({"topic": "bears"})
+results = composed_chain_with_pipe .invoke({"topic": "bears"})
 
 print(results)

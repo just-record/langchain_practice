@@ -16,6 +16,7 @@ langchain-experimental
 langsmith
 python-dotenv
 langchain-openai
+faiss-cpu
 ```
 
 Installation
