@@ -59,98 +59,98 @@ TODO: 다른 파트 연습 후에 볼 것
 
 ### Pormpt templates
 
-pass
+TODO
 
 ### Example selectors
 
-pass
+TODO
 
 ### Chat models
 
-pass
+TODO
 
 ### Messages
 
-pass
+TODO
 
 ### LLMs
 
-pass
+TODO
 
 ### Output parsers
 
-pass
+TODO
 
 ### Document loaders
 
-pass
+TODO
 
 ### Text splitters
 
-pass
+TODO
 
 ### Embedding models
 
-pass
+TODO
 
 ### Vector stores
 
-pass
+TODO
 
 ### Retrievers
 
-pass
+TODO
 
 ### Indexing
 
-pass
+TODO
 
 ### Tools
 
-pass
+TODO
 
 ### Multimodal
 
-pass
+TODO
 
 ### Agent
 
-pass
+TODO
 
 ### Callbacks
 
-pass
+TODO
 
 ### Custom
 
-pass
+TODO
 
 ### Serialization
 
-pass
+TODO
 
 ## Use cases
 
 ### Q&A with RAG
 
-pass
+TODO
 
 ### Extraction
 
-pass
+TODO
 
 ### Chatbots
 
-pass
+TODO
 
 ### Query analysis
 
-pass
+TODO
 
 ### Q&A over SQL + CSV
 
-pass
+TODO
 
 ### Q&A over graph databases
 
-pass
+TODO
