@@ -23,3 +23,14 @@
 - 'context'와 'question'을 병렬로 실행
 - 'itemgetter'와 결합
 - RunnableParallels를 사용 하여 병렬로 실행. 단일 실행과 시간 비교
+
+## 04.add default invocation args to a Runnable
+
+- model.bind()를 사용하여 Runnable 내에서 상수 인수를 포함하여 호출하기
+- model.bind(tools=) 사용 하여 OpenAI tools 를 첨부
+
+## 05.run custom functions
+
+- RunnableLambda의 생성자에 전달하여 Runnable을 만들기
+- '@chain' 데코레이터를 사용하여 chain으로 만들기
+- Streamimg - 사용자 정의 출력 파서, 다음 쉼표 생성 하는 사용자 지정 함수 정의, 비동기 버전
