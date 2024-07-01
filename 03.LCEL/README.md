@@ -34,3 +34,8 @@
 - RunnableLambda의 생성자에 전달하여 Runnable을 만들기
 - '@chain' 데코레이터를 사용하여 chain으로 만들기
 - Streamimg - 사용자 정의 출력 파서, 다음 쉼표 생성 하는 사용자 지정 함수 정의, 비동기 버전
+
+## 06.pass through arguments from one step to the next
+
+- 'RunnablePassthrough'를 사용하여 변경 없이 다음 단계로 data 전달하기
+- 'Retrieval'에서  'RunnablePassthrough'를 사용 하는 예제
