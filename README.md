@@ -14,8 +14,10 @@ langchain-core
 langchain-community
 langchain-experimental
 langsmith
-python-dotenv
 langchain-openai
+langchainhub
+langchain_anthropic
+python-dotenv
 faiss-cpu
 ```
 

@@ -39,3 +39,10 @@
 
 - 'RunnablePassthrough'를 사용하여 변경 없이 다음 단계로 data 전달하기
 - 'Retrieval'에서  'RunnablePassthrough'를 사용 하는 예제
+
+## 07.configure runtime chain internals
+
+- 'configurable_fields'를 사용하여 런타임 시의 체인의 특정 단계에서 매개 변수를 지정하기
+  - 'chain'에서 사용, 'prompt' 변경 예시
+- 'configurable_alternatives'를 사용하여 대체 단계로 변경 하기 - 'llm'과 'prompt' 변경하기
+- configurations를 저장하기
