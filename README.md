@@ -17,6 +17,7 @@ langsmith
 langchain-openai
 langchainhub
 langchain_anthropic
+grandalf
 python-dotenv
 faiss-cpu
 ```

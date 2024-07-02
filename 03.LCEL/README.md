@@ -63,3 +63,7 @@
 ## 10.create a dynamic chain
 
 - 'RunnablePassthrough.assign'로 입력 데이터를 수정하여 동적 체인 생성하기
+
+## 11.inspect runnables
+
+- get_graph().print_ascii() - runnable의 그래프.  get_prompts() - prompt 확인
