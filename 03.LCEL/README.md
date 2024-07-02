@@ -67,3 +67,9 @@
 ## 11.inspect runnables
 
 - get_graph().print_ascii() - runnable의 그래프.  get_prompts() - prompt 확인
+
+## 12.add fallbacks to a runnable
+
+- fallbacks을 적용하여 error 발생 시 다른 모델로 전환
+- chain, sequences, long inputs에 적용
+- 빠른고 싼 모델에서 실패하면 더 좋은 모델 사용
