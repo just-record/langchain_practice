@@ -46,3 +46,16 @@
   - 'chain'에서 사용, 'prompt' 변경 예시
 - 'configurable_alternatives'를 사용하여 대체 단계로 변경 하기 - 'llm'과 'prompt' 변경하기
 - configurations를 저장하기
+
+## 08.add message history
+
+- 'RunnableWithMessageHistory'의 기본 사용 법 - session_id, get_session_history() 사용
+- 'input_messages_key', 'history_messages_key', 'output_messages_key'의 사용 예시  
+- 'input_messages_key'의 특정 사례 - 모든 메시지 입력, 출력을 단위 키로 저장
+- Customization - 다 이해 되지 않음
+
+## 09.route between sub-chains
+
+- 'custom function'과 'RunnableLambda'를 사용 하여 sub chain 연결하기 (Recommended)
+- 'RunnableBranch'를 사용 하여 sub chain 연결하기 (Legacy)
+- embedding을 사용하여 의미적으로 유사한 prompt의 sub chain 연결하기

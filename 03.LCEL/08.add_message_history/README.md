@@ -11,8 +11,10 @@
   - 모델을 사용 하여 하나의 키만 생성 할 때 저장하는 키로 지정
 - 04.add_message_history.py: 'input_messages_key'의 특정 사례 - 모든 메시지 입력, 출력을 단위 키로 저장
   - 키가 하나만 존재
-- 05.add_message_history.py: Customization
+- 05.add_message_history.py: Customization - 다 이해 되지 않음.
+
 
 ## 추가 분석
 
 - MessagesPlaceholder
+- ConfigurableFieldSpec
