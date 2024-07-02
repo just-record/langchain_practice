@@ -73,3 +73,10 @@
 - fallbacks을 적용하여 error 발생 시 다른 모델로 전환
 - chain, sequences, long inputs에 적용
 - 빠른고 싼 모델에서 실패하면 더 좋은 모델 사용
+
+## Cheatsheet
+
+- 01: runnable invoke 하기
+- 02: runnable batch 하기
+- 03: runnable stream 하기 - yield 사용
+- 04: runnable을 compose 하기 - '|' 사용
