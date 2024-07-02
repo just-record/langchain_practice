@@ -59,3 +59,7 @@
 - 'custom function'과 'RunnableLambda'를 사용 하여 sub chain 연결하기 (Recommended)
 - 'RunnableBranch'를 사용 하여 sub chain 연결하기 (Legacy)
 - embedding을 사용하여 의미적으로 유사한 prompt의 sub chain 연결하기
+
+## 10.create a dynamic chain
+
+- 'RunnablePassthrough.assign'로 입력 데이터를 수정하여 동적 체인 생성하기
