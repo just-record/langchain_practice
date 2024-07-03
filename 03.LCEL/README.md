@@ -79,4 +79,14 @@
 - 01: runnable invoke 하기
 - 02: runnable batch 하기
 - 03: runnable stream 하기 - yield 사용
-- 04: runnable을 compose 하기 - '|' 사용
+- 04: runnable을 compose 하기 - '|', 'parallel' 사용
+- 05: 'RunnableLambda'로 일반 함수를 runnable로 만들기
+- 06: 'RunnablePassthrough'로 입력을 그대로 전달하기. 'RunnablePassthrough.assign'로 기존 입력에 새로운 키-값 쌍을 추가하기
+- 07: 'RunnablePassthrough'로 입력을 그대로 전달하기
+- 08: 'bind'를 이용 하여 Runnable 객체에 부분적으로 인자를 미리 지정하기
+- 09: fallbacks 적용 - 'runnable1.with_fallbacks([runnable2])'
+- 10: retry 적용 - 'runnable..with_retry(stop_after_attempt=2)'
+- 11: 'RunnableConfig'를 사용 하여 runnable객체의 세부적인 실행 방식을 동적으로  조정
+- 12: 'Runnable.with_config'를 사용하여 초기 값 설정
+- 13: 'configurable_fields'를 이용 하여 설정 가능한 속성을 설정하기
+- 14: 'configurable_alternatives'를 이용 하여 설정 가능한 대체 구성 요소를 설정하기
