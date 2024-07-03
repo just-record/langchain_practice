@@ -90,3 +90,11 @@
 - 12: 'Runnable.with_config'를 사용하여 초기 값 설정
 - 13: 'configurable_fields'를 이용 하여 설정 가능한 속성을 설정하기
 - 14: 'configurable_alternatives'를 이용 하여 설정 가능한 대체 구성 요소를 설정하기
+- 15: 입력 값에 의해 동적인 체인 생성 하기
+- 16: 이벤트 스트림 생성 하기
+- 17: 'batch_as_completed' - 입력 리스트의 각 요소를 병렬로 처리
+- 18: 'runnable.pick' - 출력의 일부만 반환
+- 19: 'runnable.map()' - 입력 컬렉션의 각 요소에 대해 Runnable을 실행
+- 20: 'chain.get_graph().print_ascii()'로 그래프 출력
+- 21: 'chain.get_prompts()'로 모든 prompt 확인
+- 22: 'with_listeners' - 실행 시 특정 이벤트가 발생할 때 호출되는 콜백 함수를 추가
