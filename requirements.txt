@@ -9,3 +9,4 @@ langchain_anthropic
 grandalf
 python-dotenv
 faiss-cpu
+langchain_chroma
