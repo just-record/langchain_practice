@@ -4,11 +4,7 @@
 
 ## 01.Prompt templates
 
-TODO
-
 ## 02.Example selectors
-
-TODO
 
 ## 03.Chat models
 
