@@ -21,6 +21,8 @@ grandalf
 python-dotenv
 faiss-cpu
 langchain_chroma
+nltk
+wikipedia
 ```
 
 Installation

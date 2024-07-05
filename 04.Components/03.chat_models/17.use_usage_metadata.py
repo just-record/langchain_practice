@@ -13,16 +13,30 @@ print(openai_response.usage_metadata)
 # print(f'Anthropic: {anthropic_response.response_metadata["usage"]}')
 
 
-### streaming
+### streaming - stream_options={"include_usage": True}
 print('-'*30)
 aggregate = None
 for chunk in llm.stream("hello", stream_options={"include_usage": True}):
     print(chunk)
     aggregate = chunk if aggregate is None else aggregate + chunk
+# content='' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content='Hello' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content='!' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content=' How' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content=' can' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content=' I' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content=' assist' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content=' you' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content=' today' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content='?' id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content='' response_metadata={'finish_reason': 'stop', 'model_name': 'gpt-3.5-turbo-0125'} id='run-39f186e9-0610-487b-afe3-80af83a930cf'
+# content='' id='run-39f186e9-0610-487b-afe3-80af83a930cf' usage_metadata={'input_tokens': 8, 'output_tokens': 9, 'total_tokens': 17}    
 
 print('-'*30)
 print(f'aggregate.content: {aggregate.content}')
 print(f'aggregate.usage_metadata: {aggregate.usage_metadata}')
+# aggregate.content: Hello! How can I assist you today?
+# aggregate.usage_metadata: {'input_tokens': 8, 'output_tokens': 9, 'total_tokens': 17}
 
 
 ### setting model_kwargs

@@ -8,8 +8,6 @@
 
 ## 03.Chat models
 
-TODO
-
 ## 04.Messages
 
 TODO

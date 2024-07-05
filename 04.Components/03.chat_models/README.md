@@ -74,7 +74,54 @@
 <https://python.langchain.com/v0.2/docs/how_to/chat_token_usage_tracking/>
 
 - Using LangSmith: <https://docs.smith.langchain.com/>
-- 17.use_usage_metadata.py: 
+- 17.use_usage_metadata.py: 'usage_metadata' - token 사용량
+- 18.use_callbacks.py: 'callbacks' - 'get_openai_callback' - token 사용량
+
+### Response metadata
+
+<https://python.langchain.com/v0.2/docs/how_to/response_metadata/>
+
+OpenAI만 확인 - 나머지는 필요 시 확인
+
+- 19.response_metadata.py: 'response_metadata' - metadata 확인
+
+### How to init any model in one line
+
+<https://python.langchain.com/v0.2/docs/how_to/chat_models_universal_init/>
+
+- 20.init_chat_model.py: 'init_chat_model' - 특정 모델을 초기화 하기
+
+### How to use a model to call tools
+
+<https://python.langchain.com/v0.2/docs/how_to/tool_calling/>
+
+`### How to use a model to call tools`와 동일
+
+### How to stream tool calls
+
+<https://python.langchain.com/v0.2/docs/how_to/tool_streaming/>
+
+- 21.stream_tool_calls.py: tool 호출을 스트리밍 하기
+
+### How to use few-shot prompting with tool calling
+
+<https://python.langchain.com/v0.2/docs/how_to/tools_few_shot/>
+
+- 22.few_shot_tool_calls.py: few-shot tool 호출하기
 
 
+### How to bind model-specific tools
 
+<https://python.langchain.com/v0.2/docs/how_to/tools_model_specific/>
+
+- 23.bind_model_specific_tools.py: 모델에 tools 바인딩 하기 - OpenAI
+
+### How to force tool calling behavior
+
+<https://python.langchain.com/v0.2/docs/how_to/tool_choice/>
+
+- 24.force_tool_calling_behavior.py: 'tool_choice="Multiply"' - tool 호출 강제하기
+
+### How to init any model in one line
+
+`### How to init any model in one line`와 동일
