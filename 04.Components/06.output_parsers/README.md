@@ -10,4 +10,33 @@
 
 ## How to
 
-### 
+### How to use output parsers to parse an LLM response into structured format
+
+<https://python.langchain.com/v0.2/docs/how_to/output_parser_structured/>
+
+- 01.pydantic_output_parser.py: 'PydanticOutputParser', 'SimpleJsonOutputParser' 사용
+
+### How to parse JSON output
+
+<https://python.langchain.com/v0.2/docs/how_to/output_parser_json/>
+
+- 02.json_output_parser.py: 'JsonOutputParser' - 'Pydantic' 사용/미사용 - streaming 가능
+
+
+### How to parse XML output
+
+<https://python.langchain.com/v0.2/docs/how_to/output_parser_xml/>
+
+- 03.xml_output_parser.py: 'XmlOutputParser'
+
+### How to parse YAML output
+
+<https://python.langchain.com/v0.2/docs/how_to/output_parser_yaml/>
+
+- 04.yaml_output_parser.py: 'YamlOutputParser' 사용
+
+### How to retry when a parsing error occurs
+
+<https://python.langchain.com/v0.2/docs/how_to/output_parser_retry/>
+
+- 05.retry_on_error.py: 'RetryOutputParser' - 출력 파싱 오류 시 재시도
