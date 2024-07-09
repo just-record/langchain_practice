@@ -40,3 +40,16 @@
 <https://python.langchain.com/v0.2/docs/how_to/output_parser_retry/>
 
 - 05.retry_on_error.py: 'RetryOutputParser' - 출력 파싱 오류 시 재시도
+
+### How to use the output-fixing parser
+
+<https://python.langchain.com/v0.2/docs/how_to/output_parser_fixing/>
+
+- 06.output_fixing_parser.py: 'OutputFixingParser' - Error 발생 - 아직 원인은 못 찾음
+  - <https://wikidocs.net/233793>에서도 같은 문제가 발생함
+
+### How to create a custom Output Parser
+
+<https://python.langchain.com/v0.2/docs/how_to/output_parser_custom/>
+
+생략 - 필요 시 분석

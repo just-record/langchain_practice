@@ -4,11 +4,19 @@
 
 ## 01.Prompt templates
 
+<https://python.langchain.com/v0.2/docs/how_to/#prompt-templates>
+
 ## 02.Example selectors
+
+<https://python.langchain.com/v0.2/docs/how_to/#example-selectors>
 
 ## 03.Chat models
 
+<https://python.langchain.com/v0.2/docs/how_to/#example-selectors>
+
 ## 04.Messages
+
+<https://python.langchain.com/v0.2/docs/how_to/#example-selectors>
 
 ## 05.LLMs
 
@@ -18,48 +26,64 @@ LangChain이 LLM이라고 부르는 것은 문자열을 입력받아 문자열�
 
 ## 06.Output parsers
 
-TODO
+<https://python.langchain.com/v0.2/docs/how_to/#example-selectors>
 
 ## 07.Document loaders
 
+TODO: 'RAG' 사용 시 분석
+
+<https://python.langchain.com/v0.2/docs/how_to/#document-loaders>
+
+## 08.Text splitters
+
+TODO: 'RAG' 사용 시 분석
+
+<https://python.langchain.com/v0.2/docs/how_to/#text-splitters>
+
+## 09.Embedding models
+
+TODO: 'RAG' 사용 시 분석
+
+<https://python.langchain.com/v0.2/docs/how_to/#embedding-models>
+
+## 10.Vector stores
+
+TODO: 'RAG' 사용 시 분석
+
+<https://python.langchain.com/v0.2/docs/how_to/#vector-stores>
+
+## 11.Retrievers
+
+TODO: 'RAG' 사용 시 분석
+
+<https://python.langchain.com/v0.2/docs/how_to/#retrievers>
+
+## 12.Indexing
+
+TODO: 'RAG' 사용 시 분석
+
+<https://python.langchain.com/v0.2/docs/how_to/#indexing>
+
+## 13.Tools
+
 TODO
 
-## 08.Embedding models
+## 14.Multimodal
 
 TODO
 
-## 09.Vector stores
+## 15.Agents
 
 TODO
 
-## 10.Retrievers
+## 16.Callbacks
 
 TODO
 
-## 11.Indexing
+## 17.Custom
 
 TODO
 
-## 12.Tools
-
-TODO
-
-## 13.Multimodal
-
-TODO
-
-## 14.Agents
-
-TODO
-
-## 15.Callbacks
-
-TODO
-
-## 16.Custom
-
-TODO
-
-## 17.Serialization
+## 18.Serialization
 
 TODO
