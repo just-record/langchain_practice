@@ -66,11 +66,11 @@ TODO: 'RAG' 사용 시 분석
 
 ## 13.Tools
 
-TODO
+<https://python.langchain.com/v0.2/docs/how_to/#tools>
 
 ## 14.Multimodal
 
-TODO
+<https://python.langchain.com/v0.2/docs/how_to/#multimodal>
 
 ## 15.Agents
 
