@@ -13,10 +13,11 @@ langchain
 langchain-core
 langchain-community
 langchain-experimental
-langsmith
 langchain-openai
 langchainhub
 langchain_anthropic
+langsmith
+langgraph
 grandalf
 python-dotenv
 faiss-cpu
