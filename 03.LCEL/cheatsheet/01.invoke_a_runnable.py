@@ -6,5 +6,13 @@ print(f'type runnable: {type(runnable)}')
 print(runnable.invoke(5))
 # 5
 
-# Async variant:
-# await runnable.ainvoke(5)
+### 비동기 실행
+# import asyncio
+# from langchain_core.runnables import RunnableLambda
+
+# async def main():
+#     runnable = RunnableLambda(lambda x: str(x))
+#     result = await runnable.ainvoke(5)
+#     print(result)
+
+# asyncio.run(main())
