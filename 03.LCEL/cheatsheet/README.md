@@ -2,6 +2,8 @@
 
 <https://python.langchain.com/v0.2/docs/how_to/lcel_cheatsheet/>
 
+위의 공식 문서를 참조 하였으나 내용이 아주 짧은 간격으로 update 되는 것 같습니다.
+
 - 01.invoke_a_runnable.py: runnable invoke 하기
 - 02.batch_a_runnable.py: runnable batch 하기
   - 추가로 llm 까지 연결
