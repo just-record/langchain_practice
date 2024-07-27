@@ -6,9 +6,9 @@ from langchain_core.example_selectors import SemanticSimilarityExampleSelector
 from langchain_openai import OpenAIEmbeddings
 
 examples = [
-    {"input": "2+2", "output": "4"},
-    {"input": "2+3", "output": "5"},
-    {"input": "2+4", "output": "6"},
+    {"input": "2 🦜 2", "output": "4"},
+    {"input": "2 🦜 3", "output": "5"},
+    {"input": "2 🦜 4", "output": "6"},
     {"input": "What did the cow say to the moon?", "output": "nothing at all"},
     {
         "input": "Write me a poem about the moon",
@@ -18,12 +18,13 @@ examples = [
 
 to_vectorize = [" ".join(example.values()) for example in examples]
 print(to_vectorize)
-# ['2+2 4', '2+3 5', '2+4 6', 'What did the cow say to the moon? nothing at all', 'Write me a poem about the moon One for the moon, and one for me, who are we to talk about the moon?']
+# ['2 🦜 2 4', '2 🦜 3 5', '2 🦜 4 6', 'What did the cow say to the moon? nothing at all', 'Write me a poem about the moon One for the moon, and one for me, who are we to talk about the moon?']
 embeddings = OpenAIEmbeddings()
+# 벡터 DB(Chroma) 에 저장
 vectorstore = Chroma.from_texts(to_vectorize, embeddings, metadatas=examples)
 
 
-### Create the example_selector
+### 1. example selector 로 가장 유사한 예제 선택하기
 print('-'*30)
 
 example_selector = SemanticSimilarityExampleSelector(
@@ -32,9 +33,10 @@ example_selector = SemanticSimilarityExampleSelector(
 )
 # The prompt template will load examples by passing the input do the `select_examples` method
 print(example_selector.select_examples({"input": "horse"}))
+# [{'input': 'What did the cow say to the moon?', 'output': 'nothing at all'}, {'input': '2 🦜 4', 'output': '6'}]
 
 
-### Create prompt template
+### 2. example selector가 포함된 Chat Prompt Template 만들기
 print('-'*30)
 
 from langchain_core.prompts import ChatPromptTemplate, FewShotChatMessagePromptTemplate
@@ -51,9 +53,9 @@ few_shot_prompt = FewShotChatMessagePromptTemplate(
     ),
 )
 
-print(few_shot_prompt.invoke(input="What's 3+3?").to_messages())
-# What's 3+3?과 가장 유사한 예제 2개를 반환
-# [HumanMessage(content='2+3'), AIMessage(content='5'), HumanMessage(content='2+2'), AIMessage(content='4')]
+print(few_shot_prompt.invoke(input="What's 3 🦜 3?").to_messages())
+# What's 3 🦜 3?과 가장 유사한 예제 2개를 반환
+# [HumanMessage(content='2 🦜 3'), AIMessage(content='5'), HumanMessage(content='2 🦜 4'), AIMessage(content='6')]
 
 print('-'*30)
 final_prompt = ChatPromptTemplate.from_messages(
@@ -64,13 +66,13 @@ final_prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-print(few_shot_prompt.invoke(input="What's 3+3?"))
-# messages=[HumanMessage(content='2+3'), AIMessage(content='5'), HumanMessage(content='2+2'), AIMessage(content='4')]
+print(few_shot_prompt.invoke(input="What's 3 🦜 3?"))
+# messages=[HumanMessage(content='2 🦜 3'), AIMessage(content='5'), HumanMessage(content='2 🦜 4'), AIMessage(content='6')]
 
 ### Use with an chat model
 print('-'*30)
 from langchain_openai import ChatOpenAI
 
 chain = final_prompt | ChatOpenAI(model="gpt-3.5-turbo", temperature=0.0)
-print(chain.invoke({"input": "What's 3+3?"}))
-# content='6' ...
+print(chain.invoke({"input": "What's 3 🦜 3?"}).content)
+# 6
