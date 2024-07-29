@@ -36,3 +36,8 @@
 ### How to compose prompts together
 
 - 10.compose_prompts_together.py: 'PipelinePromptTemplate' - 여러 단계의 프롬프트 생성 과정을 하나의 파이프라인으로 연결
+
+### 추가
+
+- 11.prompt_template_from_file.py: 파일에서 prompt template 읽어오기
+- 12.prompt_template_from_hub.py: LangSmith hub에서 prompt 읽어오기
