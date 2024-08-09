@@ -8,6 +8,26 @@
 
 한 번 읽어 볼 필요가 있음
 
+### langchain-openai, langchain-anthropic, langchain-community
+
+#### 자체 통합 패키지: langchain-openai, langchain-anthropic
+
+- 특정 제공업체(OpenAI, Anthropic)의 모델에 최적화된 통합을 제공
+- 해당 제공업체의 최신 API 변경사항과 기능을 신속하게 반영
+- LangChain에서 정의한 표준 매개변수(예: temperature, max_tokens 등)를 엄격하게 준수
+
+#### langchain-community
+
+- 다양한 오픈소스 및 커뮤니티 기반 모델들에 대한 통합을 제공
+- 업데이트는 커뮤니티 기여에 크게 의존하며, 업데이트 주기가 다양
+- 표준 매개변수를 권장하지만, 모든 통합에서 엄격하게 적용되지는 않을 수 있음
+
+#### 코드 예시
+
+- 00.01.integration_packages_openai.py: 자체 통합 패키지 사용하기 - langchain-openai
+- 00.02.integration_packages_antropic.py: 자체 통합 패키지 사용하기 - langchain-anthropic
+- 00.03.langchain-community.py: langchain-community => TODO (최신 버전으로 update 필요)
+
 ## How to
 
 ### How to use a model to call tools

@@ -16,6 +16,7 @@ langchain-experimental
 langchain-openai
 langchainhub
 langchain_anthropic
+langchain-huggingface
 langsmith
 langgraph
 grandalf
