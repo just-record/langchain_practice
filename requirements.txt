@@ -3,9 +3,9 @@ langchain-core
 langchain-community
 langchain-experimental
 langchain-openai
-langchainhub
 langchain_anthropic
 langchain-huggingface
+langchainhub
 langsmith
 langgraph
 grandalf
@@ -14,3 +14,4 @@ faiss-cpu
 langchain_chroma
 nltk
 wikipedia
+rich
