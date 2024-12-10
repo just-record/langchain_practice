@@ -10,8 +10,9 @@ langsmith
 langgraph
 grandalf
 python-dotenv
-faiss-cpu
+# faiss-cpu
 langchain_chroma
 nltk
 wikipedia
 rich
+pypdf

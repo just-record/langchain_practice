@@ -2,7 +2,7 @@
 
 <https://python.langchain.com/docs/tutorials/llm_chain/>
 
-## python-dotenv, rich
+## 사전준비 - python-dotenv, rich
 
 - python-dotenv: 환경 변수를 쉽게 관리하는 Python 패키지
 - rich: 터미널 출력을 보기 좋게 해주는 Python 패키지
