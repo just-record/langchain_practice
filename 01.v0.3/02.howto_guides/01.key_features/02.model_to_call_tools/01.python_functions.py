@@ -76,7 +76,6 @@ print('2.', '-' * 50)
 from langchain_core.output_parsers import PydanticToolsParser
 from pydantic import BaseModel, Field
 
-### A. ~
 class add(BaseModel):
     """Add two integers."""
 
@@ -88,15 +87,11 @@ class multiply(BaseModel):
     """Multiply two integers."""
 
     a: int = Field(..., description="First integer")
-    b: int = Field(..., description="Second integer")
-### ~ A.    
+    b: int = Field(..., description="Second integer")    
 
 chain = llm_with_tools | PydanticToolsParser(tools=[add, multiply])
 results = chain.invoke(query)
 rprint(results)
 # 2. --------------------------------------------------
 # [multiply(a=3, b=12)]
-### A. 부분을 주석 처리 - Tool을 Pydantic class 를 사용 하지 않으면 함수가 직접 실행 됨
-# Called multiply with 3 and 12
-# [36]
 
