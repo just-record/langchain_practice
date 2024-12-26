@@ -58,10 +58,26 @@ Conceptual guide: <https://python.langchain.com/docs/concepts/lcel/>
 
 갑자기 LagnGraph가...
 
-- 11.add_message_history.py
+- 11.example_message_inputs.py
+- 12.example_dictionary_inputs.py
+- 13.example_message_history.py
 
-## How to: route between sub-chains - TODO
-## How to: create a dynamic (self-constructing) chain - TODO
-## How to: inspect runnables - TODO
-## How to: add fallbacks to a runnable - TODO
-## How to: pass runtime secrets to a runnable - TODO
+## How to: route between sub-chains
+
+- 14.route_between_sub_chains.py
+
+## How to: create a dynamic (self-constructing) chain
+
+- 15.dynamic_chain.py
+
+## How to: inspect runnables
+
+- 16.inspect_runnables.py
+
+## How to: add fallbacks to a runnable
+
+- 17.add_fallbacks.py
+
+## How to: pass runtime secrets to a runnable
+
+- 18.pass_runtime_secrets.py
