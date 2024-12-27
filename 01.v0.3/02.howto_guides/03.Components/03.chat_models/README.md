@@ -1,0 +1,38 @@
+# How-to guides - Components - Chat models
+
+<https://python.langchain.com/docs/how_to/#chat-models>
+
+✔️ conceptual guide: <https://python.langchain.com/docs/concepts/chat_models/>
+
+## How to use chat models to call tools
+
+- <https://github.com/just-record/langchain_practice/tree/main/01.v0.3/02.howto_guides/01.key_features/02.model_to_call_tools>와 동일
+
+## How to return structured data from a model
+
+- <https://github.com/just-record/langchain_practice/tree/main/01.v0.3/02.howto_guides/01.key_features/01.structured_data>와 동일
+
+## How to cache chat model responses
+
+- 01.cache_chat_model_responses.py
+
+## How to get log probabilities
+
+- 02.get_log_probabilities.py
+
+## How to create a custom chat model class
+
+- 03.custom_chat_model_class.py
+
+## How to stream chat model responses
+
+- 04.stream_chat_model_responses.py
+
+## How to track token usage in ChatModels
+## How to use chat models to call tools
+## How to stream tool calls
+## How to handle rate limits
+## How to use few-shot prompting with tool calling
+## How to bind model-specific tools
+## Run models locally
+## How to init any model in one line
