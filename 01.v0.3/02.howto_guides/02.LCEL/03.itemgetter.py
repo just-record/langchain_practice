@@ -50,10 +50,10 @@ rprint(question_getter({"question": "where did harrison work?"}))
 
 
 ##################################################################################
-### 1. prompt 입력이 'context'와 question' 2개의 key를 가져야 함
+### 1. 'question'와 language' key를 가져야 함
 print('1.', '-' * 50)
 ##################################################################################
-results = chain.invoke("where did harrison work?")
+results = chain.invoke({"question": "where did harrison work", "language": "italian"})
 rprint(results)
 # 1. --------------------------------------------------
 # Harrison worked at Kensho.
