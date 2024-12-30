@@ -29,6 +29,14 @@
 - 04.stream_chat_model_responses.py
 
 ## How to track token usage in ChatModels
+
+- 05.track_token_usage_usage_metadata.py
+- 06.track_token_usage_callbacks.py
+
+## Response metadata
+
+- 07.response_metadata.py
+
 ## How to use chat models to call tools
 ## How to stream tool calls
 ## How to handle rate limits
