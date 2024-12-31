@@ -38,8 +38,17 @@
 - 07.response_metadata.py
 
 ## How to use chat models to call tools
+
+- <https://github.com/just-record/langchain_practice/tree/main/01.v0.3/02.howto_guides/01.key_features/02.model_to_call_tools>와 동일
+
 ## How to stream tool calls
+
+- 08.stream_tool_calls.py
+
 ## How to handle rate limits
+
+- 09.handle_rate_limits.py
+
 ## How to use few-shot prompting with tool calling
 ## How to bind model-specific tools
 ## Run models locally
