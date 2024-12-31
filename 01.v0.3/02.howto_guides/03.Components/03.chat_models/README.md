@@ -50,6 +50,16 @@
 - 09.handle_rate_limits.py
 
 ## How to use few-shot prompting with tool calling
+
+- 10.few_shot_prompting.py
+
 ## How to bind model-specific tools
+
+- 11.bind_model_specific_tools.py
+
+## How to force models to call a tool
+
+- 12.force_models_to_call_tool.py
+
 ## Run models locally
 ## How to init any model in one line
