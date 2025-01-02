@@ -62,4 +62,20 @@
 - 12.force_models_to_call_tool.py
 
 ## Run models locally
+
+- ollama 설치: <https://just-record.github.io/ollama/ollama-01-basic/>
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install curl -y
+curl -fsSL https://ollama.com/install.sh | sh
+ollama --version
+
+ollama run llama3.2
+```
+
+- 13.run_models_locally.py
+
 ## How to init any model in one line
+
+- 14.init_any_model_in_one_line.py
