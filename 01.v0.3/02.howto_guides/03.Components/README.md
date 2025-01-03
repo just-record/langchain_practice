@@ -20,7 +20,10 @@
 
 ## LLMs
 
-- 05.llms 디렉토리
+- 채팅 형식이 아닌 문자열을 입력받아 문자열을 출력하는 구식 언어 모델
+- 우선 순위를 많이 낮추어 추후에 연습
+- TODO
+<!-- - 05.llms 디렉토리 -->
 
 ## Output parsers
 
@@ -28,27 +31,33 @@
 
 ## Document loaders
 
-- 07.document_loaders 디렉토리
+- TODO: RAG는 Tools와 Agents를 하고 다음에 연습
+<!-- - 07.document_loaders 디렉토리 -->
 
 ## Text splitters
 
-- 08.text_splitters 디렉토리
+- TODO: RAG는 Tools와 Agents를 하고 다음에 연습
+<!-- - 08.text_splitters 디렉토리 -->
 
 ## Embedding models
 
-- 09.embedding_models 디렉토리
+- TODO: RAG는 Tools와 Agents를 하고 다음에 연습
+<!-- - 09.embedding_models 디렉토리 -->
 
 ## Vector stores
 
-- 10.vector_stores 디렉토리
+- TODO: RAG는 Tools와 Agents를 하고 다음에 연습
+<!-- - 10.vector_stores 디렉토리 -->
 
 ## Retrievers
 
-- 11.retrievers 디렉토리
+- TODO: RAG는 Tools와 Agents를 하고 다음에 연습
+<!-- - 11.retrievers 디렉토리 -->
 
 ## Indexing
 
-- 12.indexing 디렉토리
+- TODO: RAG는 Tools와 Agents를 하고 다음에 연습
+<!-- - 12.indexing 디렉토리 -->
 
 ## Tools
 
