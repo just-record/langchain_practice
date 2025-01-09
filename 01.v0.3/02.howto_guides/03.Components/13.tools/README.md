@@ -74,6 +74,29 @@
 - 16.stream_events_from_tool.py
 
 ## How to return artifacts from a tool
+
+- 17.return_artifacts_from_tool.py
+
 ## How to convert Runnables to Tools
+
+- LangGraph 사용
+- 18.convert_runnables_to_tools.py
+
 ## How to add ad-hoc tool calling capability to LLMs and Chat Models
+
+- ollama 설치: <https://just-record.github.io/ollama/ollama-01-basic/>
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install curl -y
+curl -fsSL https://ollama.com/install.sh | sh
+ollama --version
+
+ollama run phi3
+```
+
+- 19.ad_hoc_tool_calling.py
+
 ## How to pass runtime secrets to runnables
+
+- 20.pass_runtime_secrets_to_runnables.py
