@@ -69,16 +69,27 @@
 
 ## Agents
 
-- 15.agents 디렉토리
+- TODO: Agent도 LangGraph를 이용하라고 강력히 권고하고 있음
+<!-- - 15.agents 디렉토리 -->
 
 ## Callbacks
 
-- 16.callbacks 디렉토리
+- TODO
+<!-- - 16.callbacks 디렉토리 -->
 
 ## Custom
 
-- 17.custom 디렉토리
+- TODO
+<!-- - 17.custom 디렉토리 -->
 
 ## Serialization
 
-- 18.serialization 디렉토리
+- TODO
+<!-- - 18.serialization 디렉토리 -->
+
+## LangGraph 먼저
+
+- LangChain의 기본적인 부분은 익힌 시점에서 너무 깊이 있게 보지 않고 LangGraph를 아는 것이 먼저 일 것 같다.
+- 중요한 부분에서 LangGraph를 사용하라고 강력히 권고하고 있다.
+
+LangGraph practice: <https://github.com/just-record/langgraph_practice_202411>
