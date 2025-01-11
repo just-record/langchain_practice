@@ -12,11 +12,11 @@
 
 ## 03.Chat models
 
-<https://python.langchain.com/v0.2/docs/how_to/#example-selectors>
+<https://python.langchain.com/v0.2/docs/how_to/#chat-models>
 
 ## 04.Messages
 
-<https://python.langchain.com/v0.2/docs/how_to/#example-selectors>
+<https://python.langchain.com/v0.2/docs/how_to/#messages>
 
 ## 05.LLMs
 
@@ -26,7 +26,7 @@ LangChain이 LLM이라고 부르는 것은 문자열을 입력받아 문자열�
 
 ## 06.Output parsers
 
-<https://python.langchain.com/v0.2/docs/how_to/#example-selectors>
+<https://python.langchain.com/v0.2/docs/how_to/#output-parsers>
 
 ## 07.Document loaders
 
